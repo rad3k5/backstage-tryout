@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: artist-api
-  description: Retrieve artist details
+  name: rt-api
+  description: Retrieve some data
 spec:
   type: openapi
   lifecycle: production
   owner: idpadmins
-  system: artist-engagement-portal
+  system: rt-portal
   definition:
     $text: 'https://raw.githubusercontent.com/rad3k5/backstage-tryout/refs/heads/main/example-openapi.yaml'
