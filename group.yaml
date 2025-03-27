@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: idpadmins
-  description: The infra business unit
+  description: RT infra unit
 spec:
   type: team
   profile:
